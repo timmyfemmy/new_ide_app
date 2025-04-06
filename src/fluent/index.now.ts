@@ -6,7 +6,7 @@ import { showStateUpdate } from '../server/script.js'
 ClientScript({
     $id: Now.ID['cs0'],
     name: 'my_client_script',
-    table: 'incident',
+    table: 'x_1644142_new_ide_sample_table',
     active: true,
     applies_extended: false,
     global: true,
@@ -24,7 +24,7 @@ ClientScript({
 BusinessRule({
     $id: Now.ID['br0'],
     action: ['update'],
-    table: 'incident',
+    table: 'x_1644142_new_ide_sample_table',
     script: showStateUpdate,
     name: 'LogStateChange',
     order: 100,
