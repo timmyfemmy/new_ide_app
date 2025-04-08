@@ -1,4 +1,4 @@
-import { Table, StringColumn, DateColumnn } from '@servicenow/sdk/core'
+import { Table, StringColumn, DateColumn } from '@servicenow/sdk/core'
 
 
 
